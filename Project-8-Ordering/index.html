@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="head">
+            <div class="logo">
+                <img src="images/fashion-clothes.png">
+                <div class="deliver">
+                    <p>Deliver to <br><span>Philippines</span></p>
+                </div>
+                <div class="search">
+                    <label for="search"><img src="images/search.png"></label>
+                    <input type="text" placeholder="Search" id="search">
+                </div>
+            </div>
+            <div class="nav">
+                <a href="#">Account</a>
+                <a href="#">Orders</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="products">
+                <div class="border">
+                    <div class="header">
+                        <div class="heading">
+                            <h2>Popular Products Internationally</h2>
+                        </div>
+                        <div class="cart">
+                            <p id="total-items"></p>
+                            <img src="images/cart.png">
+                        </div> 
+                    </div>
+                    <div class="produkto">
+                        <div class="product">
+                            <div class="image">
+                                <img src="images/product-1.jpg">
+                            </div>
+                            <div class="p-name">
+                                <p>Puma Cat's Men Logo</p>
+                                <button onclick="redshirt()">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image">
+                                <img src="images/product-2.jpg">
+                            </div>
+                            <div class="p-name">
+                                <p>Running Rubber Shoes</p>
+                                <button onclick="blackshoes()">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image">
+                                <img src="images/product-3.jpg">
+                            </div>
+                            <div class="p-name">
+                                <p>Slim Fit Trousers</p>
+                                <button onclick="trousers()">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image">
+                                <img src="images/product-4.jpg">
+                            </div>
+                            <div class="p-name">
+                                <p>Picque Men's Polo Shirt</p>
+                                <button onclick="poloshirt()">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="image">
+                                <img src="images/product-5.jpg">
+                            </div>
+                            <div class="p-name">
+                                <p>Grey Woven Sneakers</p>
+                                <button onclick="grayshoes()">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="order">
+                <div class="ordered">
+                    <div class="items">
+                        <div class="items-ordered">
+                            <div class="bought">
+                                <h3>Items Ordered</h3>
+                            </div>
+                            <div class="total">
+                                <h3 id="totalcart">1</h3>
+                            </div>
+                        </div>
+                        <div class="list-items">
+                            <ul id="ordered-items">
+                                <p id="arr"></p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

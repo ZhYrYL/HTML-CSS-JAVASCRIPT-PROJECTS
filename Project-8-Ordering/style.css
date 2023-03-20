@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Unbounded:wght@400;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Unbounded', cursive;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.head{
+    background-color: #282A3A;
+    flex: 2 1;
+    display: flex;
+    padding: 5px;
+}
+.logo{
+    /*background-color: green;*/
+    flex: 2 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    filter: contrast(150%);
+    cursor: pointer;
+}
+.deliver{
+    width: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white 
+}
+.deliver span{
+    font-weight: bold;
+}
+.search{
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #2D033B;
+    height: 80%;
+}
+.search input{
+    text-indent: 10px;
+    font-size: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 95%;
+    border-radius: 0 10px 10px 0;
+}
+.search img{
+    height: 20px;
+    width: auto;
+    margin: 0 10px;
+    filter: invert(100%) sepia(18%) saturate(2%) hue-rotate(300deg) brightness(105%) contrast(101%);
+}
+.nav{
+    /*background-color: magenta;*/
+    flex: 1 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+.nav a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.body{
+    /*background-color: pink;*/
+    flex: 20 1;
+    display: flex;
+    flex-direction: column;
+}
+.products{
+    /*background-color: pink;*/
+    flex: 3 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px black;
+    background: url(https://wallpaperaccess.com/full/1272033.jpg);
+    background-size: cover;
+    color: white;
+}
+.header{
+    /*background-color: red;*/
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.heading{
+    /*background-color: red;*/
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+}
+.cart{
+    /*background-color: orange;*/
+    flex: 1 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.cart img{
+    height: 35px;
+    width: auto;
+    margin: 0 10px;
+}
+.header h2{
+    line-height: 0;
+    margin-left: 20px;
+    font-family: 'Ramabhadra', sans-serif;
+}
+.produkto{
+    /*background-color: magenta;*/
+    flex: 5 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product{
+    height: 90%;
+    /*background-color: #ECE8DD;*/
+    width: 17%;
+    border-radius: 5px;
+    margin: 0 1px;
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+    display: flex;
+    flex-direction: column;
+}
+.product:hover{
+    box-shadow: 0 0 15px black;
+    transition: 0.4s;
+}
+.image{
+    background-color: #f1f0f0;
+    flex: 3 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 200px;
+}
+.p-name{
+    background-color: #393E46;
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.p-name p{
+    line-height: 0;
+}
+.p-name button{
+    width: 50%;
+    padding: 5px;
+    background-color: #38E54D;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.p-name button:hover{
+    background-color: #3EC70B;
+    color: gold;
+    transition: 0.3s;
+}
+
+.order{
+    /*background-color: rgb(226, 226, 98);*/
+    flex: 2 1;
+    display: flex;
+}
+.ordered{
+    /*background-color: rgb(226, 226, 98);*/
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    width: 50%;
+    border: double 10px #222222;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.items-ordered{
+    /*background-color: gray;*/
+    flex: 1 1;
+    display: flex;
+}
+.bought{
+    background-color: gray;
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+}
+.total{
+    background-color: magenta;
+    flex: 1 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.items-ordered h3{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.list-items{
+    background-color: green;
+    flex: 5 1;
+}
+.footer{
+    background-color: aqua;
+    flex: 1 1;
+}
