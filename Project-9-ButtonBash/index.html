@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Bash</title>
+</head>
+<body>
+
+    <div>
+        <div id="header">
+            <div id="style">
+                <button onclick="addStyling()" class="add-style">Add Style</button>
+                <button onclick="noStyle()" class="no-style">No Style</button>
+                <button onclick="removeText()">Remove Text Format</button>
+                <button onclick="removeImage()">Remove Image Format</button>
+            </div>
+            <div id="mode">
+                <button onclick="lightMode()" class="light">Light Mode</button>
+                <button onclick="darkMode()" class="dark">Dark Mode</button>
+            </div>
+        </div>
+
+        <div id="settings">
+            <div id="search">
+                <button onclick="textColor()" class="text-color">Text Color</button>
+                <input type="text"><br>
+            </div onclick="textColor()">
+            <button onclick="contrast()">Contrast</button>
+            <button onclick="saturate()">Saturate</button>
+            <button onclick="grayscale()">Grayscale</button>
+            <button onclick="bold()">Bold</button>
+            <button onclick="italic()">Italic</button>
+            <button onclick="underline()">Underline</button>
+            
+            <div>
+                <button onclick="setPicture()">Set Picture</button>
+                <input type="text" placeholder="link of the picture" value="https://wallpaperaccess.com/full/1090183.jpg">
+            </div>
+        </div>
+
+        <div class="presentation">
+            <div id="present">
+                <img src="img/eleven.png">
+                <p>At birth, Eleven was taken away from her mother by Dr. Martin Brenner and was raised as a test subject in Hawkins National Laboratory in order to develop her psychokinetic skills. When placed in a sensory deprivation tank, she can use remote viewing to access other dimensions, primarily for the purposes of espionage.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

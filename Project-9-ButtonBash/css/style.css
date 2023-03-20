@@ -1,0 +1,21 @@
+.contrast{
+    filter: contrast(150%)
+}
+.saturate{
+    filter: saturate(150%)
+}
+.grayscale{
+    filter: grayscale(100%)
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+button{
+    cursor: pointer;
+}

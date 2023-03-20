@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rubik+Gemstones&family=Rubik+Vinyl&display=swap');
+*{
+    font-family: 'Rubik Vinyl', cursive;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #343F56;
+    background-color: #F54748;
+    color: #F5E6CA;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+   margin-top: 1px;
+   color: gold;
+   transition: 0.3s;
+}
+.add-style{
+    color: #EA047E;
+    border-color: #FF6D28;
+    background-color: #FCE700;
+}
+.no-style{
+    color: white;
+    border-color: gray;
+    background-color: lightgray;
+}
+.light{
+    color: #2B3467;
+    border-color: #DBA39A;
+    background-color: #FCFFE7;
+}
+.dark{
+    color: white;
+    border-color: black;
+    background-color: #222222;
+}
+.text-color{
+    color: white;
+    border-style: double;
+    border-color: #F6F54D #FEB139 #F55353 #143F6B;
+    background: linear-gradient(45deg, #F6F54D, #FEB139, #F55353, #143F6B );
+}
+input{
+    height: 35px;
+    border-radius: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+p{
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 3px solid #FFDF6B;
+    background-color: #FFEFCF;
+}
+#header{
+    background-color: #233E8B;
+}
+#settings{
+    background-color: #1EAE98;
+}
+.presentation{
+    background-color: #A9F1DF;
+}
+#present{
+    border: 3px solid #21094E;
+    background-color: #864000;
+}
+#present:hover{
+    background-color: maroon;
+    transition: 0.3s;
+}
+.contrast{
+    filter: contrast(150%)
+}
+.saturate{
+    filter: saturate(150%)
+}
+.grayscale{
+    filter: grayscale(100%)
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
