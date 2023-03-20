@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        .grid-container{
+        display: grid;
+        grid-template: repeat(8, 1fr) / repeat(5, 1fr);
+        width: 400px;
+        margin: auto;
+        border: solid 1px black;
+        height: 500px;
+        background: linear-gradient(45deg, #5DA7DB, #81C6E8);
+        padding: 10px;
+        grid-gap: 10px;
+      }
+      .item{
+        background: linear-gradient(45deg, #00ABB3, #81C6E8);
+        border: 1px solid white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .button-1{
+        grid-column: span 5;
+        grid-row: span 2;
+        font-size: 30px;
+        text-align: right;
+        background: linear-gradient(45deg,lightgray, whitesmoke, white);
+      }
+
+      .button-26{
+        grid-row: span 2;
+      }
+
+      .button-27{
+        grid-column: span 2;
+      }
+
+      body{
+        text-align: center;
+        background: url(https://wallpaperaccess.com/full/2109966.jpg);
+        background-size: cover;
+        margin: 0;
+      }
+
+      .button-12, .button-13, .button-14, .button-17, .button-18,
+      .button-19, .button-22, .button-23, .button-24, .button-27, .button-28{
+        background: linear-gradient(45deg,lightgray, whitesmoke, white);
+      }
+
+    </style>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <div class="grid-container">
+
+      <button class="item button-1">0</button>
+ 
+      <button class="item button-2">MC</button>
+      <button class="item button-3">MR</button>
+      <button class="item button-4">MS</button>
+      <button class="item button-5">M+</button>
+      <button class="item button-6">M-</button>
+
+      <button class="item button-7"><-</button>
+      <button class="item button-8">CE</button>
+      <button class="item button-9">C</button>
+      <button class="item button-10">+-</button>
+      <button class="item button-11">√</button>
+
+      <button class="item button-12">7</button>
+      <button class="item button-13">8</button>
+      <button class="item button-14">9</button>
+      <button class="item button-15">/</button>
+      <button class="item button-16">%</button>
+
+      <button class="item button-17">4</button>
+      <button class="item button-18">5</button>
+      <button class="item button-19">6</button>
+      <button class="item button-20">*</button>
+      <button class="item button-21">1/x</button>
+
+
+      <button class="item button-22">1</button>
+      <button class="item button-23">2</button>
+      <button class="item button-24">3</button>
+      <button class="item button-25">-</button>
+      <button class="item button-26">=</button>
+
+      <button class="item button-27">0</button>
+      <button class="item button-28">.</button>
+      <button class="item button-29">+</button>
+
+      
+    </div>
+
+
+  </body>
+</html>
