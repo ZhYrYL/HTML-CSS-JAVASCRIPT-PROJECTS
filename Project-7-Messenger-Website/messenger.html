@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+</head>
+<body>
+
+    <div class="flex-container2">
+        <div class="notif-bar">
+            <div class="sidebar">
+                <div class="chats">
+                    <img src="img/chat.png" class="icon">
+                    <p>Chats</p>
+                </div>
+                <div class="people">
+                    <img src="img/people.png" class="grayicon"> 
+                    <p>People</p>
+                </div>
+                <div class="marketplace">
+                    <img src="img/marketplace.png" class="grayicon">
+                    <p>Marketplace</p>
+                </div>
+                <div class="requests">
+                    <img src="img/request.png" class="grayicon">
+                    <p>Requests</p>
+                </div>
+                <div class="archived">
+                    <img src="img/archive.png" class="grayicon">
+                    <p>Archived</p>
+                </div>
+                <p class="communities">Communities</p>
+                <div class="web">
+                    <img src="img/group.jpg" class="icon1">
+                    <p>HTML, CSS & JavaScript</p>
+                </div>
+            </div>
+            <div class="acc">
+                <div class="empty"></div>
+                <div class="zhy">
+                    <div class="me">   
+                        <img src="img/zhy.jpg">
+                        <p>Zhyryll</p>
+                    </div>
+                    <div class="expand">
+                        <img src="img/logout.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="group">
+            <div class="notifsearch">
+                <div class="notif">
+                    <div class="chat">
+                        <div>Chats</div>
+                    </div>
+                    <div class="call">
+                        <div class="icon-hover">
+                            <img src="img/video-call.png" class="top-icon">
+                        </div>
+                        <div class="icon-hover">
+                            <img src="img/edit.png" class="top-icon2">
+                        </div>
+                    </div>
+                </div>
+                <div class="search">
+                    <div class="searching">
+                        <img src="img/search.png" class="search-icon">
+                        <input type="text" placeholder="Search Messenger">
+                    </div>
+                </div>
+            </div>
+            <div class="sidechat">
+                <div class="chat1">
+                    <div class="imgs">
+                        <img src="img/marvel.jpg" class="images" onclick="avengers()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="avengers()">Avengers</div>
+                        <div class="message" onclick="avengers()">Captain: I can do this all day ·1m</div>
+                    </div>
+                    <div class="mute-icon">
+                        <img src="img/mute.png" class="icon">
+                    </div>
+                </div>
+                <div class="chat2">
+                    <div class="imgs">
+                        <img src="img/Brown.jpg" class="images" onclick="milly()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="milly()">Milly Brown</div>
+                        <div class="message" onclick="milly()">Reacted <img src="img/heart.png" class="emoji-icon"> to your message ·1m</div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+                <div class="chat3">
+                    <div class="imgs">
+                        <img src="img/theboys.jpg" class="images" onclick="theboys()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="theboys()">The Boys</div>
+                        <div class="message" onclick="theboys()">Butcher: Those supes?Those c**ts?·13m</div>
+                    </div>
+                    <div class="mute-icon">
+                        <img src="img/mute.png" class="icon">
+                    </div>
+                </div>
+                <div class="chat4">
+                    <div class="imgs">
+                        <img src="img/billy.jpg" class="images" onclick="billie()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="billie()">Billie Eilish</div>
+                        <div class="message" onclick="billie()">Reacted <img src="img/haha.png" class="emoji-icon"> to your message ·18m</div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+                <div class="chat5">
+                    <div class="imgs">
+                        <img src="img/maive.jpg" class="images" onclick="maive()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="maive()">Maive Wiley</div>
+                        <div class="message" onclick="maive()">Maive: Complex female characters ·32m</div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+                <div class="chat6">
+                    <div class="imgs">
+                        <img src="img/lucifer.jpg" class="images" onclick="lucifer()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="lucifer()">Lucifer Morningstar</div>
+                        <div class="message" onclick="lucifer()"><span style="color: black">Lucifer: Tell me, what is it you trul... ·59m</span></div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+                <div class="chat7">
+                    <div class="imgs">
+                        <img src="img/rick.jpg" class="images" onclick="rick()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="rick()">Rick Grimes</div>
+                        <div class="message" onclick="rick()">Rick: I don't take chances anymore ·1h</div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+                <div class="chat8">
+                    <div class="imgs">
+                        <img src="img/zhy.jpg" class="images" onclick="zhyryll()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="zhyryll()">Zhyryll Ryj Posadas</div>
+                        <div class="message" onclick="zhyryll()">You sent 3 photos ·1h</div>
+                    </div>
+                    <div class="mute-icon">
+                        <img src="img/check.png" class="sent-icon">
+                    </div>
+                </div>
+                <div class="chat9">
+                    <div class="imgs">
+                        <img src="img/daenarys.png" class="images" onclick="daenarys()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="daenarys()">Daenarys Targaryen</div>
+                        <div class="message" onclick="daenarys()"><span style="color: black">Dany: If you ever betray me, I'll bu... ·2h</span></div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+                <div class="chat10">
+                    <div class="imgs">
+                        <img src="img/walter.jpg" class="images" onclick="heisenberg()">
+                    </div>
+                    <div class="msgs">
+                        <div class="who" onclick="heisenberg()">Heisenberg</div>
+                        <div class="message" onclick="heisenberg()"><span style="color: black">Walter: Stay out of my territory ·5h</span></div>
+                    </div>
+                    <div class="mute-icon"></div>
+                </div>
+            </div>
+        </div>
+        <div class="chatting">
+            <div class="currentinfo">
+                <div class="current">
+                    <div class="my-image">
+                        <img src="img/zhy.jpg" id="picture">
+                        <p id="name-again">Zhyryll Ryj Posadas</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="img/more.png">
+                </div>
+            </div>
+            <div class="my-message">
+                <div class="msg1">
+                    <div class="keyframes">
+                        <p>-keyframes</p>
+                    </div>
+                    <div class="icon-sent">
+                    <img src="img/check.png">
+                    </div>
+                </div>
+                <div class="date">
+                    Dec 17, 2022, 6:17 PM
+                </div>
+                <div class="msg2">
+                    <div class="msg-2">
+                        <img src="img/msg2.png">
+                    </div>
+                    <div class="icon-sent">
+                        <img src="img/check.png">
+                    </div>
+                </div>
+                <div class="date">
+                    Wed 11:37 AM
+                </div>
+                <div class="msg3">
+                    <div class="msg-3">
+                        <p>
+                        CSS<br>
+                            -transition<br>
+                            -different size values<br>
+                            -hover<br>
+                            -animation<br>
+                            -hover<br>
+                            -media queries (renponsiveness)
+                        </p>
+                        
+                    </div>
+                    <div class="icon-sent">
+                        <img src="img/check.png">
+                    </div>
+                </div>
+                <div class="date">
+                    Fri 6:06 PM
+                </div>
+                <div class="msg4">
+                    <div class="msg-4">
+                       <img src="img/html.jpg">
+                       <img src="img/css.jpg">
+                       <img src="img/js.jpg">
+                    </div>  
+                    <div class="icon-sent">
+                        <img src="img/check.png">
+                    </div>
+                </div>
+                <div class="footer-icons">
+                    <div class="icon-hover">
+                        <img src="img/add.png" class="icon">
+                    </div>
+                    <div class="icon-hover">
+                        <img src="img/attach.png" class="icon">
+                    </div>
+                    <div class="icon-hover">
+                        <img src="img/sticker.png" class="icon">
+                    </div>
+                    <div class="icon-hover">
+                        <img src="img/gif.png" class="icon">
+                    </div>
+                    <div class="icons-footer">
+                        <input type="text" placeholder="Aa">
+                        <div class="icon-hover">
+                            <img src="img/smile.png" class="icon">
+                        </div>
+                    </div>
+                    <div class="like">
+                        <div class="icon-hover">
+                            <img src="img/like.png" class="icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="profile-acc">
+                <div class="account">
+                    <div class="pic">
+                        <img src="img/zhy.jpg" id="pic">
+                        <p id="name">Zhyryll Ryj Posadas</p>
+                    </div>
+                    <div class="search-mute">
+                        <div class="icon-options">
+                            <img src="img/profile.png" class="icon">
+                            <p>Profile</p>
+                        </div>
+                        <div class="icon-options">
+                            <img src="img/bell.png" class="icon">
+                            <p>Mute</p>
+                        </div>
+                        <div class="icon-options">
+                            <img src="img/searchicon.png" class="icon">
+                            <p>Search</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="option-bar">
+                    <div class="profile-options">
+                        <p>Customize chat</p>
+                        <img src="img/pointing-right.png" class="icon">
+                    </div>
+                    <div class="profile-options">
+                        <p>Media, files and links</p>
+                        <img src="img/pointing-right.png" class="icon">
+                    </div>
+                    <div class="profile-options">
+                        <p>Privacy & support</p>
+                        <img src="img/pointing-right.png" class="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="empty"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
