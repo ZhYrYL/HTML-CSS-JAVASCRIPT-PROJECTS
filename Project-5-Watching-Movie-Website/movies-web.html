@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .grid-container{
+            display: grid;
+            grid-template: 50px 50px 40px 750px 120px / 80px 1fr 80px;
+            grid-gap: 10px;
+            font-family: 'Prompt', sans-serif;
+   
+
+        }
+        .item-1{
+            grid-column: span 3;  
+        }
+        .item-2, .item-3{
+            grid-column: 2;
+            border-radius: 3px;
+        }
+        .item-2{
+            font-size: 13px;
+            
+        }
+        .item-3{
+            font-size: 14px;
+            background-color: #ffac04;
+        }
+        .item-4{
+            grid-column: 2;
+            background: url(https://wallpaperaccess.com/full/803574.jpg);
+            background-size: cover;
+        }
+        .item-5{
+            grid-row: 5;
+            grid-column: 2;
+        }
+        .header{
+            display: flex;
+            justify-content: space-around;
+            background-color: #03316a;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+            
+        }
+        input{
+            width: 10%;
+            height: 30px;
+            border: none;
+            border-radius: 40px;
+            text-align: center;
+        }
+        .logo{
+            height: 30px;
+            width: auto;
+            filter: invert(96%) sepia(100%) saturate(12%) hue-rotate(237deg) brightness(103%) contrast(103%);
+            position: relative;
+            left: 40px;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            position: relative;
+            right: 40px;
+
+        }
+        .login{
+            position: relative;
+            right: 40px;
+
+        }
+        .message{
+            position: relative;
+            left: 30px;
+            bottom: 5px;
+        }
+        .flex-container{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            justify-content: flex-end;
+        }
+        .container-1{
+            display: flex;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+        .icon{
+            height: 25px;
+            filter: invert(100%) sepia(2%) saturate(7473%) hue-rotate(323deg) brightness(113%) contrast(99%);
+            position: relative;
+            top: 10px;
+        }
+        .container-2{
+            display: flex;
+            align-items: flex-end;
+            position: relative;
+            top: 60px;
+            font-size: 12px;
+
+        }
+        .icon-footer{
+            height: 15px;
+            filter: invert(100%) sepia(2%) saturate(7473%) hue-rotate(323deg) brightness(113%) contrast(99%);
+            margin: 0 5px 0 20px;
+            position: relative;
+            bottom: 2px;
+        }
+        .main{
+            background-color: black;
+            height: 20%;
+        }
+        .left, .right{
+            display: flex;
+        }
+        .left{
+
+            justify-content: space-around;
+            width: 20%;
+            position: relative;
+            left: 50px;
+        }
+        .right{
+
+            width: 30%;
+            justify-content: space-around;
+            position: relative;
+            left: 580px;
+        }
+        button{
+            height: 25px;
+            width: auto;
+            position: relative;
+            top: 10px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        .btn1{
+            background-color: #ffac04;
+            border: none;
+        }
+        .footer-grid{
+            display: grid;
+            width: 30%;
+            height: 100%;
+            margin: auto;
+            grid-template: 35% 55% / repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .grid-item1{
+            grid-column: span 3;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+        .grid-item{
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .icons{
+            height: 15px;
+            position: relative;
+            top: 15px;
+            left: 10px;
+        }
+        .streams{
+            position: relative;
+            left: 40px;
+            bottom: 15px;
+        }
+        .current-stream{
+            background-color: #3f8afb;
+        }
+        .gray{
+            color: gray;
+        }
+        .server-gray{
+            background-color: lightgray;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .white{
+            color: white;
+        }
+        .light{
+            color: lightgray;
+        }
+
+
+
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freemovies360.com</title>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="item item-1 header">
+            <img src="https://cdn-icons-png.flaticon.com/128/1101/1101793.png" class="logo">
+            <div class="nav">
+            <a>HOME</a>
+            <a>GENRE</a>
+            <a>COUNTRY</a>
+            <a>MOVIES</a>
+            <a>TV SHOWS</a>
+            <a>TOP IMDB</a>
+            <a>ANDROID APP</a>
+            </div>
+            <input type="text" placeholder="Enter keywords">
+            <a class="login">Login</a>
+        </div>
+        <div class="item item-2">
+            <p>Home / Movie / Black Adam</p>
+        </div>
+        <div class="item item-3">
+            <p class="message">If you get any error message when trying to stream, please Refresh the page or switch to another streaming server</p>
+        </div>
+        <div class="item item-4">
+            <div class="flex-container">
+                <div class="main">
+                <div class="container-1">
+                    <div class="left">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4211/4211344.png" class="icon"> 
+                    <img src="https://cdn-icons-png.flaticon.com/128/565/565296.png" class="icon"> 
+                    <p>22:10 /  2:04:50</p>
+                    </div>
+                    <div class="right">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5293/5293446.png" class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/128/5293/5293447.png" class="icon">
+                    <button class="btn1">Download</button>
+                    <button class="btn2">CC</button>
+                    <img src="https://cdn-icons-png.flaticon.com/128/2311/2311515.png" class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3765/3765191.png" class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/128/9103/9103001.png" class="icon">
+                    </div>
+                </div>
+                <div class="container-2">
+                    <img src="https://cdn-icons-png.flaticon.com/128/2997/2997933.png" class="icon-footer">
+                    <div>Add to favorite</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3204/3204462.png" class="icon-footer">
+                    <div>Turn off light</div>
+                    <img src="https://cdn-icons-png.flaticon.com/128/134/134723.png" class="icon-footer">
+                    <div>Comments</div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="item item-5">
+            <div class="footer-grid">
+                <div class="grid-item1">
+                    <p>If current server doesn't work please try other servers below.</p>
+                </div>
+                <div class="grid-item current-stream">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4211/4211344.png" class="icons">
+                    <div class="streams">
+                        <div class="gray light">Server</div>
+                        <div class="bold white">UpCloud</div>
+                    </div>
+                </div>
+                <div class="grid-item server-gray">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4211/4211344.png" class="icons">
+                    <div class="streams">
+                        <div class="gray">Server</div>
+                        <div class="bold">Vidcloud</div>
+                    </div>
+                </div>
+                <div class="grid-item server-gray">
+                    <img src="https://cdn-icons-png.flaticon.com/128/4211/4211344.png" class="icons">
+                    <div class="streams">
+                        <div class="gray">Server</div>
+                        <div class="bold">Streamlare</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
